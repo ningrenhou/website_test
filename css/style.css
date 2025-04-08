@@ -47,6 +47,15 @@
     font-size: 20px;
     padding: 10px;
     text-align: right;
+    color: white;
+}
+
+.words a {
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
 }
 
 .navigation .words:first-child {
