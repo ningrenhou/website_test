@@ -1,0 +1,221 @@
+.backtotop {
+    position: fixed;
+    right: 0.5%;
+    bottom: 1%;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #EDE9E4;
+    filter: drop-shadow(2px 2px 20px blue);
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: rgb(101, 131, 152);
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    align-items: center;
+    z-index: 1;
+    padding: 2.5%;
+}
+
+/*.title-wordmark {
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index:2;
+
+    font-size:14px;
+    padding-right:50px;
+
+    margin-top: 1.6vh;
+}*/
+
+.words {
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+}
+
+.navigation .words:first-child {
+    margin-right: auto; /* 将第一个元素推到左侧 */
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'Rag-Black';
+    src: url('/fonts/EncodeSans-Bold.ttf') format('ttf2'),
+         url('/fonts/EncodeSans-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+.hero-text h1 {
+    font-family: "EncodeSans-Blod";
+    font-size: 100pt;
+    line-height: 1.0;
+    color: #526D82;
+}
+
+/*关于标题和旁边的大小姐图片的*/
+.hero-text {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px;
+    background-color: #EDE9E4; 
+    padding-top: 12%;
+}
+
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container a img {
+    width: 150px; 
+    height: 150px;
+    margin-right: 15px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-right: 10%;
+    margin-left: 180px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*关于宣言的*/
+.grid-container {
+    display: flex; 
+    align-items: center;  
+    background-color: #658398;
+    padding: 15px;
+    height: 60px;            
+    width: 100%;  
+    padding-top: 2.5%;
+    padding-bottom: 3%;           
+}
+
+.grid-container p {
+    font-size: 35pt;         
+    color: #CDCFD0;
+    text-align: center;
+    padding-left: 25%;
+}
+
+/*四个oc图片和文字的*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 160px;
+    align-items: center;
+    background-color: #EDE9E4;
+    text-align: center;
+    width: 100%;
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+
+.container img {
+    width: 243.6px;
+    height: 243.6px;
+    border-radius: 50%;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container a {
+    color: #526D82;
+    font-size: 40px;
+}
+
+/*下面第一段文字的*/
+.introduction-text {
+    padding-left: 5%;
+    background-color: #658398;
+    flex-direction: row;
+    padding-bottom: 2%;
+    padding-right: 5%;
+}
+
+.introduction-text h1 {
+    font-size: 78pt;
+    color: #CDCFD0;
+    padding-top: 2%;
+}
+
+.introduction-text p {
+    font-size: 20pt;
+    color: #CDCFD0;
+    padding-top: 1%;
+}
+
+/*下面第二段文字的*/
+.whatisoc-text {
+    padding-left: 5%;
+    background-color: #EDE9E4;
+    padding-bottom: 2%;
+    padding-right: 5%;
+}
+
+.whatisoc-text h1 {
+    font-size: 78pt;
+    color: #526D82;
+    padding-top: 2%;
+}
+
+.whatisoc-text p {
+    font-size: 20pt;
+    color: #526D82;
+    padding-top: 1%;
+}
+
+
+
+/*.container {
+    display: grid;
+    grid-template-areas:
+        "support-text";
+}
+
+.container > div.support-text{
+    grid-area: support-text;
+}
+
+.support-text {
+    background-color: #658398;
+    color: #CDCFD0;
+    text-align: center;
+    font-size: 40pt;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;  
+    position: relative;
+} */
