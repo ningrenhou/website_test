@@ -81,13 +81,16 @@
 /*关于标题和旁边的大小姐图片的*/
 .hero-text {
     text-align: left;
-    padding-left: 20%;
+    padding-left: 5%;
+    width: 40%;
+    min-width: 300px;
 }
 
 .hero-section {
     display: flex;
     justify-content: center;
     align-items: center; 
+    flex-wrap: wrap;
     padding: 50px;
     background-color: #EDE9E4; 
     padding-top: 12%;
@@ -106,15 +109,17 @@
 }
 
 .hero-image {
-    width: 100%;
+    width: 40%;
     height: auto;
     display: flex;
     padding-right: 10%;
     margin-left: 180px;
+    max-width: 500px;
+    min-width: 300px;
 }
 
 img {
-    width: 100%;
+    width: 120%;
     height: auto;
 }
 
@@ -163,6 +168,7 @@ img {
 .container a {
     color: #526D82;
     font-size: 40px;
+    text-decoration: none;
 }
 
 /*下面第一段文字的*/
