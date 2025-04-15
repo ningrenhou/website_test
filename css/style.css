@@ -102,6 +102,8 @@
     background-color: #EDE9E4; 
     padding-top: 12%;
     overflow-x: hidden;
+    padding-bottom: 5%; /* ✅ 减小底部空间，压缩中间缝隙 */
+    row-gap: 12px;       /* ✅ 控制标题和图像的垂直间隔 */
 }
 
 .flex-container {
@@ -123,7 +125,7 @@
     width: 40%;
     height: auto;
     display: flex;
-    padding-right: 10%;
+    padding-right: 2%;
     /* margin-left: 180px; */
     max-width: 500px;
     min-width: 300px;
