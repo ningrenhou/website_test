@@ -102,7 +102,7 @@
     background-color: #EDE9E4; 
     padding-top: 12%;
     overflow-x: hidden;
-    padding-bottom: 5%; /* ✅ 减小底部空间，压缩中间缝隙 */
+    padding-bottom: 3%; /* ✅ 减小底部空间，压缩中间缝隙 */
     row-gap: 12px;       /* ✅ 控制标题和图像的垂直间隔 */
 }
 
