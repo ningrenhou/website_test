@@ -44,14 +44,14 @@
 }*/
 
 .words {
-    font-size: 20px;
+    font-size: 1.3vw;
     padding: 10px;
     text-align: right;
     color: white;
 }
 
 .words a {
-    font-size: 20px;
+    font-size: 1.3vw;
     padding: 10px;
     text-align: right;
     color: white;
@@ -152,7 +152,7 @@ img {
 }
 
 .grid-container p {
-    font-size: 35pt;         
+    font-size: 3.5vw;         
     color: #CDCFD0;
     text-align: center;
     padding-left: 25%;
@@ -198,7 +198,7 @@ img {
 }
 
 .introduction-text h1 {
-    font-size: 78pt;
+    font-size: 70pt;
     color: #CDCFD0;
     padding-top: 2%;
 }
@@ -218,7 +218,7 @@ img {
 }
 
 .whatisoc-text h1 {
-    font-size: 78pt;
+    font-size: 70pt;
     color: #526D82;
     padding-top: 2%;
 }
