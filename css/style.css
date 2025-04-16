@@ -97,6 +97,7 @@
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
+/*关于标题和旁边的大小姐图片的*/
 .hero-text h1 {
     font-family: "EncodeSans-Bold", Sans-serif;
     font-size: 8vw; 
@@ -106,7 +107,6 @@
     width: 100%;
 }
 
-/*关于标题和旁边的大小姐图片的*/
 .hero-text {
     text-align: left;
     padding-left: 5%;

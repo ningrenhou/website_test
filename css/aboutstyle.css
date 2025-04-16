@@ -44,14 +44,16 @@
 }*/
 
 .words {
-    font-size: 20px;
+    font-family: "Kadwa-Regular", Serif;
+    font-size: 1.3vw;
     padding: 10px;
     text-align: right;
     color: white;
 }
 
 .words a {
-    font-size: 20px;
+    font-family: "Kadwa-Regular", Serif;
+    font-size: 1.3vw;
     padding: 10px;
     text-align: right;
     color: white;
@@ -61,4 +63,43 @@
 .navigation .words:first-child {
     margin-right: auto; /* 将第一个元素推到左侧 */
     text-align: left;
+}
+
+@font-face {
+    font-family: 'EncodeSans-Bold';
+    src: url('/fonts/EncodeSans-Bold.woff2') format('woff2'),
+         url('/fonts/EncodeSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'MavenPro-Regular';
+    src: url('/fonts/MavenPro-Regular.woff2') format('woff2'),
+         url('/fonts/MavenPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'Kadwa-Regular';
+    src: url('/fonts/Kadwa-Regular.woff2') format('woff2'),
+         url('/fonts/Kadwa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'IstokWeb-Bold';
+    src: url('/fonts/IstokWeb-Bold.woff2') format('woff2'),
+         url('/fonts/IstokWeb-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+.title {
+    max-width: 90%;
+    padding-top: 100px; /* 避开导航栏 */
+    padding-bottom: 50px;
+    color: #1d1d1d;
 }
