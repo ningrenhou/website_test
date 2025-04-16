@@ -44,6 +44,7 @@
 }*/
 
 .words {
+    font-family: "Kadwa-Regular", Serif;
     font-size: 1.3vw;
     padding: 10px;
     text-align: right;
@@ -51,6 +52,7 @@
 }
 
 .words a {
+    font-family: "Kadwa-Regular", Serif;
     font-size: 1.3vw;
     padding: 10px;
     text-align: right;
@@ -64,15 +66,39 @@
 }
 
 @font-face {
-    font-family: 'Rag-Black';
-    src: url('/fonts/EncodeSans-Bold.ttf') format('ttf2'),
-         url('/fonts/EncodeSans-Bold.ttf') format('ttf');
+    font-family: 'EncodeSans-Bold';
+    src: url('/fonts/EncodeSans-Bold.woff2') format('woff2'),
+         url('/fonts/EncodeSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'MavenPro-Regular';
+    src: url('/fonts/MavenPro-Regular.woff2') format('woff2'),
+         url('/fonts/MavenPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'Kadwa-Regular';
+    src: url('/fonts/Kadwa-Regular.woff2') format('woff2'),
+         url('/fonts/Kadwa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; /*调整用什么款式的字体的*/
+}
+
+@font-face {
+    font-family: 'IstokWeb-Bold';
+    src: url('/fonts/IstokWeb-Bold.woff2') format('woff2'),
+         url('/fonts/IstokWeb-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal; /*调整用什么款式的字体的*/
 }
 
 .hero-text h1 {
-    font-family: "EncodeSans-Blod";
+    font-family: "EncodeSans-Bold", Sans-serif;
     font-size: 8vw; 
     line-height: 1.0;
     color: #526D82;
@@ -106,21 +132,6 @@
     row-gap: 12px;       /* ✅ 控制标题和图像的垂直间隔 */
 }
 
-.flex-container {
-    margin-top: 20px;
-    justify-content: center;
-    gap: 2vw;
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-container a img {
-    width: 10vw;       /* 根据视口宽度缩放 */
-    max-width: 140px;  /* 设置最大宽度 */
-    min-width: 50px;   /* 设置最小宽度，防止太小 */
-    height: auto;
-}
-
 .hero-image {
     width: 40%;
     height: auto;
@@ -152,7 +163,8 @@ img {
 }
 
 .grid-container p {
-    font-size: 3.5vw;         
+    font-family: "Kadwa-Regular", Serif;
+    font-size: 2.5vw;         
     color: #CDCFD0;
     text-align: center;
     padding-left: 25%;
@@ -182,6 +194,7 @@ img {
 }
 
 .container a {
+    font-family: "MavenPro-Regular", Sans-serif;
     color: #526D82;
     font-size: 40px;
     text-decoration: none;
@@ -198,12 +211,14 @@ img {
 }
 
 .introduction-text h1 {
+    font-family: "IstokWeb-Bold", Sans-serif;
     font-size: 65pt;
     color: #CDCFD0;
     padding-top: 2%;
 }
 
 .introduction-text p {
+    font-family: "MavenPro-Regular", Sans-serif;
     font-size: 20pt;
     color: #CDCFD0;
     padding-top: 1%;
@@ -218,17 +233,83 @@ img {
 }
 
 .whatisoc-text h1 {
+    font-family: "IstokWeb-Bold", Sans-serif;
     font-size: 65pt;
     color: #526D82;
     padding-top: 2%;
 }
 
 .whatisoc-text p {
+    font-family: "MavenPro-Regular", Sans-serif;
     font-size: 20pt;
     color: #526D82;
     padding-top: 1%;
 }
 
+.talk-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #658398;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    gap: 4vw;
+}
+
+.talk-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1vw;
+    width: 48%;
+    padding-left: 8%;
+}
+
+.talk-text h1 {
+    font-family: "EncodeSans-Blod", Sans-serif;
+    font-size: 6vw; 
+    line-height: 1;
+    color: #EDE9E4;
+    text-align: left;
+    width: 100%;
+}
+
+.talk-text h3 {
+    font-family: "MavenPro-Regular", Sans-serif;
+    font-size: 2vw;
+    color: #EDE9E4;
+}
+
+.flex-container {
+    margin-top: 2vw;
+    justify-content: flex-start;
+    gap: 1.5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container a img {
+    width: 5vw;       /* 根据视口宽度缩放 */
+    max-width: 100px;  /* 设置最大宽度 */
+    min-width: 30px;   /* 设置最小宽度，防止太小 */
+    height: auto;
+}
+
+.talk-image {
+    display: flex;
+    width: 100%;                 /* 占满整行 */
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8%;
+}
+
+.talk-image img {
+    width: 60%;
+    height: auto;
+    display: block;
+}
 
 
 /*.container {
